@@ -1,0 +1,31 @@
+[0m22:38:26.417212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799765526fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7997658614c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7997659a3d70>]}
+
+
+============================== 22:38:26.424862 | 491f5c13-7a5a-4d3f-9110-6b4ea588685a ==============================
+[0m22:38:26.424862 [info ] [MainThread]: Running with dbt=1.11.11
+[0m22:38:26.425875 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init movie_pipeline', 'use_colors': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'version_check': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'empty': 'None', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'profiles_dir': '/home/g100004637/.dbt', 'debug': 'False', 'no_print': 'None'}
+[0m22:38:26.455344 [info ] [MainThread]: Creating dbt configuration folder at /home/g100004637/.dbt
+[0m22:38:26.457353 [debug] [MainThread]: Starter project path: /home/g100004637/.local/lib/python3.12/site-packages/dbt/include/starter_project
+[0m22:38:26.460287 [info ] [MainThread]: 
+Your new dbt project "movie_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:38:26.460998 [info ] [MainThread]: Setting up your profile.
+[0m22:58:58.285898 [info ] [MainThread]: Profile movie_pipeline written to /home/g100004637/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:58:58.287406 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1231.9594, "process_in_blocks": "19400", "process_kernel_time": 0.457991, "process_mem_max_rss": "238580", "process_out_blocks": "80", "process_user_time": 4.626336}
+[0m22:58:58.288691 [debug] [MainThread]: Command `dbt init` succeeded at 22:58:58.288502 after 1231.96 seconds
+[0m22:58:58.289325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799767556b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799746d22000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799746a67410>]}
+[0m22:58:58.289982 [debug] [MainThread]: Flushing usage events
+[0m22:58:58.662939 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: movies_data
+    database: dm2-movie-pipeline
+    schema: movies_data
+    tables:
+      - name: tmdb_trending_clean
+      - name: tmdb_historical_clean
