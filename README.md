@@ -2,7 +2,6 @@
 
 GCP data pipeline project for **Data Management 2 (DM2)** at SRH Heidelberg — ingests live movie data from TMDB, cleans it with Spark, transforms it with dbt, and serves it through BigQuery + Looker Studio. The enriched dataset from this pipeline was later used in the separate [DVS3 "Hype vs Heart vs Money" Tableau project](https://github.com/bharat-258419/dvs3-hype-vs-heart-vs-money-project).
 
-**Author:** Bharat Manjunath Gangolli (Student ID 100004637)
 
 ## Architecture
 
